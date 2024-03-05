@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style-min.css">
+    <meta name="description" content="Color Mixer">
+    <title>Color Mixer</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="http://github.com/istnss" target="_blank"><img src="img/iconmonstr-github-1.svg" alt="icon github" loading="lazy"></a>
+            <a href="https://discord.gg/hwqc8T3Z" target="_blank"><img src="img/iconmonstr-discord-1.svg" alt="icon discord" loading="lazy"></a>
+            <a href="mailto:owisa@outlook.com" target="_blank"><img src="img/iconmonstr-gmail-3.svg" alt="icon e-mail" loading="lazy"></a>
+        </ul>
+    </header>
+    <main>
+        <h1>Color Mixer</h1>
+        <section id="cores">
+            <div class="container-first">
+                <span>Color:</span>
+                <input type="color" onchange="onChangeBg()">
+            </div>
+            <div class="container-second">
+                <span>Color: </span>
+                <input type="color" onchange="changee()">
+            </div>
+        </section>
+        <section>
+            <div id="result">
+                <div class="result">
+                    <span>Result: </span>
+                    <p class="resultText">Null</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="copyright">
+            Developed by <a href="http://github.com/istnss" target="_blank">@istnss</a> &#9829
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
