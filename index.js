@@ -1,15 +1,19 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 function onChangeBg() {
     const container = document.querySelector('.container-first');
     const color1 = document.querySelector('.container-first input[type="color"]');
     container.style.backgroundColor = color1.value;
     mixColors();
 }
+
 function changee() {
     const containerr = document.querySelector('.container-second');
     const color2 = document.querySelector('.container-second input[type="color"]');
     containerr.style.backgroundColor = color2.value;
     mixColors();
 }
+
 function mixColors() {
     const color1 = document.querySelector('.container-first input[type="color"]').value;
     const color2 = document.querySelector('.container-second input[type="color"]').value;
@@ -35,3 +39,5 @@ function hexToRgb(hex) {
     const b = bigint & 255;
     return { r, g, b };
 }
+
+});
