@@ -2,14 +2,22 @@
     padding: 0;
     margin: 0;
 }
+body{
+    background-image: url(img/bg.png);
+    background-size: cover;
+}
 header{
     background-color: #d1d1d1;
     padding: 0.5em;
 }
-h1{
+h1, h2{
     padding-top: 2em;
     align-items: center;
     text-align: center;
+    line-height: 1.5em;
+}
+h1 span{
+    color: #805f8d;
 }
 #cores{
     display: flex; 
@@ -26,7 +34,7 @@ h1{
 .container-first, .container-second, .result{
     border: 0.5px solid #BBC3C0; 
     border-radius: 2em; 
-    background-color: #262626;
+    background-color: #805f8d;
 }
 .container-first, .container-second{
     padding: 2em; 
@@ -51,7 +59,7 @@ footer{
     bottom: 0;
 }
 #copyright {
-    background-color: #262626;
+    background-color: #805f8d;
     color: #fff;
     padding: 1em 0 ;
     font-size: 1.1em;
@@ -59,7 +67,7 @@ footer{
     align-items: center;
 }
 #copyright a {
-    color: #c6c6f3;
+    color: #2a2e36;
 }
 @media screen and (max-width:320px) {
     h1{
