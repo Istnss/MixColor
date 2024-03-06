@@ -47,15 +47,16 @@ span, p{
 }
 footer{
     position: fixed;
-    width: 100%;
+    width: 100vw;
     bottom: 0;
 }
 #copyright {
     background-color: #262626;
     color: #fff;
-    padding: 1.5em;
+    padding: 1em 0 ;
     font-size: 1.1em;
     text-align: center;
+    align-items: center;
 }
 #copyright a {
     color: #c6c6f3;
