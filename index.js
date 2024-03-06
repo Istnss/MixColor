@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function() {
+
 function onChangeBg() {
     const container = document.querySelector('.container-first');
     const color1 = document.querySelector('.container-first input[type="color"]');
@@ -35,3 +37,5 @@ function hexToRgb(hex) {
     const b = bigint & 255;
     return { r, g, b };
 }
+
+});
