@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {});
 
 function onChangeBg() {
     const container = document.querySelector('.container-first');
